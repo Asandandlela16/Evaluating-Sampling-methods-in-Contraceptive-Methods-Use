@@ -1,162 +1,117 @@
-📊 Evaluating Sampling Methods in Contraceptive Use Analysis
+# 📊 Evaluating Sampling Methods in Contraceptive Use Analysis
 
-Module: STAT395 – Applied Probability Models
-Institution: University of KwaZulu-Natal
-Final Mark: ⭐ 94.5%
-Project Type: Final-Year Group Project
-Team Size: 4
+## STAT395 – Applied Probability Models  
+**University of KwaZulu-Natal**  
+**Final Mark:** ⭐ **94.5%**  
+**Project Type:** Final-Year Group Project  
+**Team Size:** 4  
 
-Group Members:
+**Group Members:**  
+- Asanda Ndlela  
+- Karina Hemraj  
+- Mohammed Usayd Ismail  
+- Swelihle Mhlongo  
 
-Asanda Ndlela
+---
 
-Karina Hemraj
+## 📌 PROJECT OVERVIEW
 
-Mohammed Usayd Ismail
+This project applies **applied probability models and sampling theory** to a real-world public health dataset in order to evaluate how different sampling designs influence the **accuracy, precision, and reliability of statistical estimates**.
 
-Swelihle Mhlongo
+Using data from the **National Indonesia Contraceptive Prevalence Survey**, we empirically compared multiple probability-based sampling methods to determine the most effective approach for estimating contraceptive use patterns among married women.
 
-📌 Project Overview
+The project bridges **theoretical statistical concepts** with **practical, data-driven inference**, highlighting the real impact of sampling design decisions in applied statistics.
 
-This project applies applied probability models and sampling theory to a real-world public health dataset to evaluate how different sampling designs influence the accuracy, precision, and reliability of statistical estimates.
+---
 
-Using data from the National Indonesia Contraceptive Prevalence Survey, we empirically compared multiple probability-based sampling methods to identify the most effective approach for estimating contraceptive use patterns among married women.
+## 🎯 OBJECTIVES
 
-The project bridges theoretical statistical concepts and practical data-driven inference, demonstrating the real impact of sampling design decisions in applied statistics.
+- Investigate factors influencing contraceptive method choice among married women  
+- Compare multiple probability-based sampling methods  
+- Estimate population means and proportions  
+- Evaluate estimator precision using **95% confidence intervals**  
+- Identify the most reliable and precise sampling design  
 
-🎯 Objectives
+---
 
-Investigate factors influencing contraceptive method choice among married women
+## 📂 DATASET DESCRIPTION
 
-Compare the performance of multiple sampling techniques in estimating:
+- **Source:** National Indonesia Contraceptive Prevalence Survey  
+- **Population Size:** 1,473 married women  
+- **Eligibility:** Women not pregnant or uncertain of pregnancy status  
+- **Sample Size:** 100 observations per sampling method  
 
-Contraceptive Method Used (categorical variable)
+### VARIABLES
 
-A derived proportion variable
+**Response Variable:**  
+- Contraceptive method used  
+  - No use  
+  - Short-term use  
+  - Long-term use  
 
-Evaluate estimator precision using 95% confidence intervals
+**Explanatory Variables (9):**  
+- Wife’s age  
+- Wife’s education  
+- Husband’s education  
+- Number of children  
+- Religion  
+- Working status  
+- Husband’s occupation  
+- Standard of living  
+- Media exposure  
 
-Identify the sampling method that produces the most reliable and precise estimates
+---
 
-📂 Dataset Description
+## 🧪 SAMPLING METHODS IMPLEMENTED
 
-Source: National Indonesia Contraceptive Prevalence Survey
+1. **Simple Random Sampling with Replacement (SRSWR)**  
+2. **Simple Random Sampling without Replacement (SRSWOR)**  
+3. **Stratified Sampling**  
+   - Stratified by wife’s education level  
+   - Proportional allocation across strata  
+4. **Cluster Sampling**  
+   - Clusters defined by husband’s occupation  
 
-Population Size: 1,473 married women
+All methods used the same sample size to ensure fair comparison.
 
-Eligibility: Women not pregnant or uncertain of pregnancy status
+---
 
-Sample Size: 100 observations per sampling method
+## 📈 KEY RESULTS & FINDINGS
 
-Variables
+- **Stratified sampling consistently produced the most precise estimates**
+  - Narrower 95% confidence intervals  
+  - Reduced variability  
+  - More stable population estimates  
+- Simple random sampling methods performed adequately but with higher variance  
+- Cluster sampling showed the widest confidence intervals and least reliability  
 
-Response Variable:
+These results empirically demonstrate that **sampling design has a substantial impact on statistical inference**.
 
-Contraceptive method used
+---
 
-No use
+## 🏆 CONCLUSION
 
-Short-term use
+The study identified **stratified sampling** as the most effective method for estimating contraceptive use in this population. By ensuring proportional representation of key subgroups, stratified sampling significantly improves precision and reliability.
 
-Long-term use
+This project achieved a **final mark of 94.5%**, reflecting strong analytical rigor, clear interpretation, and effective application of applied probability models.
 
-Explanatory Variables (9):
+---
 
-Wife’s age
+## 🛠️ SKILLS & CONCEPTS APPLIED
 
-Wife’s education
+- Applied Probability Models  
+- Sampling Theory & Survey Design  
+- Statistical Inference  
+- Confidence Interval Estimation  
+- Data Analysis & Interpretation  
+- Team-Based Statistical Research  
 
-Husband’s education
+---
 
-Number of children
+## 📎 PROJECT DELIVERABLES
 
-Religion
+- Final written report  
+- Group presentation slides  
+- Comparative analysis of sampling methods  
 
-Working status
-
-Husband’s occupation
-
-Standard of living
-
-Media exposure
-
-🧪 Sampling Methods Implemented
-
-Simple Random Sampling with Replacement (SRSWR)
-
-Simple Random Sampling without Replacement (SRSWOR)
-
-Stratified Sampling
-
-Stratification based on wife’s education
-
-Proportional allocation across strata
-
-Cluster Sampling
-
-Clusters defined by husband’s occupation
-
-Each method used the same sample size to ensure fair and meaningful comparison.
-
-📈 Key Results & Findings
-
-Stratified sampling consistently produced the most precise estimates
-
-Narrower 95% confidence intervals
-
-Lower variability
-
-More stable population estimates
-
-Simple random sampling methods performed reasonably but with higher variability
-
-Cluster sampling showed the widest confidence intervals and least reliability
-
-These results empirically confirm that sampling design plays a critical role in statistical inference, especially in heterogeneous populations.
-
-🏆 Conclusion
-
-The project demonstrated that stratified sampling is the most effective method for estimating contraceptive use in this dataset. By ensuring proportional representation of key subgroups, stratified sampling significantly improves estimator precision and reliability.
-
-This study reinforces the importance of thoughtful sampling design in applied statistics, public health research, and real-world data analysis.
-
-🛠️ Skills & Concepts Applied
-
-Applied Probability Models
-
-Sampling Theory & Survey Design
-
-Statistical Inference
-
-Confidence Interval Estimation
-
-Data Analysis & Interpretation
-
-Team-Based Statistical Research
-
-📎 Project Deliverables
-
-📄 Final written report
-
-📊 Group presentation slides
-
-📈 Comparative analysis of sampling methods
-
-📬 Contact
-
-Asanda Ndlela
-Final-Year Applied Mathematics & Statistics Student
-University of KwaZulu-Natal
-
-📎 LinkedIn: (add link)
-📁 Portfolio/GitHub: (this repository)
-
-If you want, I can:
-
-Rewrite this into a more data-science–styled README
-
-Add a Results table section formatted for GitHub
-
-Help you structure the repo folders (data/, report/, slides/)
-
-This is a very strong academic GitHub project — you’re presenting it exactly like a future data scientist should 🚀📊
+---
